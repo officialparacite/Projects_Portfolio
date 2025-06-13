@@ -110,6 +110,16 @@ nav li h1 {
     padding: 5px 10px;
     margin: 5px;
     font-size: 0.9em;
+    border: none;
+}
+
+#stack:hover {
+    background-color: olivedrab;
+    transform: translateY(-2px);
+}
+
+#stack:active {
+    transform: translateY(1px);
 }
 
 footer {
